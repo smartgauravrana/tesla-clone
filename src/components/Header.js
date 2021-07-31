@@ -12,15 +12,15 @@ function Header() {
         <img src="/images/logo.svg" alt="" />
       </a>
       <Menu>
-        <a href="#">Model S</a>
-        <a href="#">Model 3</a>
-        <a href="#">Model X</a>
-        <a href="#">Model Y</a>
+        <a href="/">Model S</a>
+        <a href="/">Model 3</a>
+        <a href="/">Model X</a>
+        <a href="/">Model Y</a>
       </Menu>
 
       <RightMenu>
-        <a href="#">Shop</a>
-        <a href="#">Tesla Account</a>
+        <a href="/">Shop</a>
+        <a href="/">Tesla Account</a>
         <CustomMenu onClick={() => setBurgerStatus(true)} />
       </RightMenu>
 
@@ -30,28 +30,28 @@ function Header() {
         </CloseWrapper>
 
         <li>
-          <a href="">Existing Inventory</a>
+          <a href="/">Existing Inventory</a>
         </li>
         <li>
-          <a href="">Used Inventory</a>
+          <a href="/">Used Inventory</a>
         </li>
         <li>
-          <a href="">Trade-in</a>
+          <a href="/">Trade-in</a>
         </li>
         <li>
-          <a href="">CyberTruck</a>
+          <a href="/">CyberTruck</a>
         </li>
         <li>
-          <a href="">Roadster</a>
+          <a href="/">Roadster</a>
         </li>
         <li>
-          <a href="">Existing Inventory</a>
+          <a href="/">Existing Inventory</a>
         </li>
         <li>
-          <a href="">Existing Inventory</a>
+          <a href="/">Existing Inventory</a>
         </li>
         <li>
-          <a href="">Existing Inventory</a>
+          <a href="/">Existing Inventory</a>
         </li>
       </BurgerNav>
     </Container>
